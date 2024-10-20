@@ -42,5 +42,5 @@ Follow these steps to get the project running on your local machine:
 
 ## Hosted URL
 
-
+   https://crafto-neon.vercel.app/
 
