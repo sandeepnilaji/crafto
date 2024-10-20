@@ -9,7 +9,7 @@ Follow these steps to get the project running on your local machine:
 
 1. Clone the repository:
    ```bash
-   git clone 
+   git clone git@github.com:sandeepnilaji/crafto.git
    ```
 
 2. Install the dependencies:
