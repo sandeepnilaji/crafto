@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation";
 import { getQuotes } from "../../lib/api";
 import Link from "next/link";
 import Image from "next/image";
+import Navbar from "@/components/Navbar";
 
 export default function QuoteListPage() {
   const [quotes, setQuotes] = useState([]);
@@ -72,19 +73,7 @@ export default function QuoteListPage() {
 
   return (
     <div className="min-h-screen bg-gray-100 flex flex-col">
-      <div className="sticky top-0 z-10 bg-gray-100 shadow-md">
-        <div className="flex justify-between items-center p-4 px-4 sm:px-16 lg:px-20">
-          <h1 className="text-2xl font-bold text-neutral-950">
-            Quotes
-          </h1>
-          <button
-            onClick={handleLogout}
-            className="text-white cursor-pointer bg-neutral-950 font-bold py-2 px-4 rounded-[8px] transition-colors duration-300 hover:bg-neutral-900 hover:text-gray-200"
-          >
-            Logout
-          </button>
-        </div>
-      </div>
+       <Navbar title="Quotes" />
       <div className="flex-grow overflow-y-auto">
         {error && (
           <div
