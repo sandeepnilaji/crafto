@@ -17,7 +17,7 @@ export const metadata = {
   title: "Crafto",
   description: "Quotes app",
   icons: {
-    icon: '/favicon.ico',  // This line handles the favicon
+    icon: '/favicon.ico',
   },
 };
 

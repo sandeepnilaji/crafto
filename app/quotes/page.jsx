@@ -127,7 +127,7 @@ export default function QuoteListPage() {
         )}
       </div>
       <Link href="/quotes/create">
-        <button className="fixed bottom-4 right-4 w-14 h-14 rounded-full bg-indigo-600 text-white flex items-center justify-center shadow-lg hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 transition-all duration-300 hover:scale-110 hover:rotate-180">
+        <button className="fixed bottom-4 right-4 w-14 h-14 rounded-full bg-neutral-950 text-white flex items-center justify-center shadow-lg hover:bg-neutral-850 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-neutral-500 transition-all duration-300 hover:scale-110 hover:rotate-180">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-6 w-6"
